@@ -161,10 +161,6 @@ def is_system_or_hidden(filepath):
         return os.path.basename(filepath).startswith('.')
     return False
 
-# --- GUI-Adapted Backend Functions (get_files_in_folder, get_file_extension, create_folder_if_not_exists_gui, move_file_to_folder_gui, delete_empty_folders_recursively) ---
-# These functions remain largely the same. For brevity, I'm assuming they are correctly defined as in previous versions.
-# Ensure they are present in your actual combined script.
-
 
 def get_files_in_folder(folder_path, textbox_widget):
     all_file_paths = []
